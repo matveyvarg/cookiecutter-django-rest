@@ -21,8 +21,8 @@ class Common(Configuration):
         'rest_framework',            # utilities for rest apis
         'rest_framework.authtoken',  # token authentication
         'django_filters',            # for filtering rest endpoints,
-        'rest_framework_jwt'
-        'rest_framework'
+        'rest_framework_jwt',
+        'rest_framework',
         # Your apps
         '{{cookiecutter.app_name}}.users',
 
